@@ -1,8 +1,6 @@
 # publiccode-issueopener
 
 [![License](https://img.shields.io/github/license/italia/publiccode-issueopener.svg)](https://github.com/italia/publiccode-issueopener/blob/main/LICENSE)
-[![Join the #publiccode channel](https://img.shields.io/badge/Slack%20channel-%23publiccode-blue.svg)](https://app.slack.com/client/T6C27AXE0/CAM3F785T)
-[![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
 
 <p align="center">
   <a href="README.md">Inglese</a> | 
@@ -12,9 +10,8 @@
 publiccode-issueopener è un bot di automazione in Python progettato per
 garantire la correttezza dei file `publiccode.yml` nei repository GitHub.
 
-Questo bot ottiene l'elenco dei repository nel [catalogo del software italiano]
-(https://developers.italia.it/it/search) tramite 
-[developers-italia-api](https://github.com/italia/developers-italia-api), controlla 
+Questo bot ottiene l'elenco dei repository di un catalogo software tramite
+la sua istanza di [open-catalog-api](https://github.com/publiccodeyml/open-catalog-api), controlla
 la validità di file `publiccode.yml` per errori, li stampa e apre issue sui relativi
 repo GitHub.
 
@@ -90,14 +87,10 @@ I contributi sono sempre benvenuti! Apri issue, fai fork del repository o invia 
 
 * [Standard publiccode.yml](https://github.com/publiccodeyml/publiccode.yml)
 * [publiccode-crawler](https://github.com/italia/publiccode-crawler)
-* [developers-italia-api](https://github.com/italia/developers-italia-api)
-
-## 👥 Manutentori
-
-Questo software è mantenuto dal team di [Developers Italia](https://developers.italia.it).
+* [open-catalog-api](https://github.com/publiccodeyml/open-catalog-api)
 
 ## 📄 Licenza
 
-Copyright© 2022-presente - Presidenza del Consiglio dei Ministri
-
 Questo software è rilasciato con licenza EUPL-1.2. Per ulteriori dettagli, consulta il file `LICENSE`.
+
+Il sistema di controllo di versione fornisce l'attribuzione delle singole righe di codice.

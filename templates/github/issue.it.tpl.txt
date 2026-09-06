@@ -56,10 +56,6 @@ jobs:
 
 <!-- {{ debug }} -->
 
-**Serve aiuto?**
-
-Unisciti a [https://slack.developers.italia.it](https://slack.developers.italia.it) e chiedi nel canale #publiccode o usa [Forum Italia](https://forum.italia.it/c/software-open-source-per-la-pa/49).
-
-<sub>[:link: Developers Italia](https://developers.italia.it/it/riuso/pubblicazione) | [:page_facing_up: il formato publiccode.yml](https://yml.publiccode.tools) | [:information_source:  Il mio codice sorgente](https://github.com/italia/publiccode-issueopener) | [*]({{ api_log_url }})</sub>
+<sub>[:page_facing_up: il formato publiccode.yml](https://yml.publiccode.tools) | [:information_source:  Il mio codice sorgente](https://github.com/italia/publiccode-issueopener) | [*]({{ api_log_url }})</sub>
 
 <!-- **commands** -->

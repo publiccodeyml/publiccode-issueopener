@@ -345,7 +345,7 @@ def run(gh, since, dry_run, lang, reachability_grace_days):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Open issues in repos for errors in publiccode.yml from the logs in Developers Italia API.",
+        description="Open issues in repos for errors in publiccode.yml from the logs of an open-catalog-api instance.",
     )
     parser.add_argument(
         "--since",
