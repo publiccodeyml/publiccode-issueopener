@@ -10,7 +10,7 @@ There are errors in the `publiccode.yml` file:
 <details>
   <summary>
     Add
-    <a href="https://github.com/italia/publiccode-parser-action">
+    <a href="https://github.com/publiccodeyml/publiccode-parser-action">
       <strong>publiccode-parser-action</strong>
     </a> to your GitHub repository, to automatically check your publiccode.yml
     at every commit
@@ -28,7 +28,7 @@ jobs:
     name: publiccode validation
     steps:
     - uses: actions/checkout@v5
-    - uses: italia/publiccode-parser-action@v1
+    - uses: publiccodeyml/publiccode-parser-action@v1
       with:
         publiccode: 'publiccode.yml'
     </samp>
@@ -38,14 +38,14 @@ jobs:
 <details>
   <summary>
     Use
-    <a href="https://github.com/italia/publiccode-parser-go">
-      <strong>publiccode-parser-go</strong>
+    <a href="https://github.com/publiccodeyml/libpubliccode">
+      <strong>libpubliccode</strong>
     </a> to validate your publiccode.yml from the command line
   </summary>
 
   <p>
     <pre>
-      <samp>$ <kbd>docker run -i italia/publiccode-parser-go /dev/stdin < publiccode.yml</kbd></samp>
+      <samp>$ <kbd>docker run -i publiccodeyml/libpubliccode /dev/stdin < publiccode.yml</kbd></samp>
     </pre>
    </p>
 </details>
@@ -56,6 +56,6 @@ jobs:
 
 <!-- {{ debug }} -->
 
-<sub>[:page_facing_up: publiccode.yml format](https://yml.publiccode.tools) | [:information_source:  My source code](https://github.com/italia/publiccode-issueopener) | [*]({{ api_log_url }})</sub>
+<sub>[:page_facing_up: publiccode.yml format](https://publiccodeyml.github.io) | [:information_source:  My source code](https://github.com/publiccodeyml/publiccode-issueopener) | [*]({{ api_log_url }})</sub>
 
 <!-- **commands** -->
