@@ -1,6 +1,6 @@
 # publiccode-issueopener
 
-[![License](https://img.shields.io/github/license/italia/publiccode-issueopener.svg)](https://github.com/italia/publiccode-issueopener/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/publiccodeyml/publiccode-issueopener.svg)](https://github.com/publiccodeyml/publiccode-issueopener/blob/main/LICENSE)
 
 <p align="center">
   English | 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/italia/publiccode-issueopener
+git clone https://github.com/publiccodeyml/publiccode-issueopener
 cd publiccode-issueopener
 ```
 
@@ -90,7 +90,7 @@ We always welcome contributions! Feel free to open issues, fork the repository o
 ## 🔗 Related Projects
 
 * [publiccode.yml Standard](https://github.com/publiccodeyml/publiccode.yml)
-* [publiccode-crawler](https://github.com/italia/publiccode-crawler)
+* [publiccode-crawler](https://github.com/publiccodeyml/publiccode-crawler)
 * [open-catalog-api](https://github.com/publiccodeyml/open-catalog-api)
 
 ## 📄 License
